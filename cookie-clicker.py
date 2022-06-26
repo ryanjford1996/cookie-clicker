@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 
 
-service = Service('/Users/ryanford/Desktop/Development/chromedriver')
+service = Service('chromedriverPath')
 driver = webdriver.Chrome(service=service)
 
 driver.get('http://orteil.dashnet.org/experiments/cookie/')
